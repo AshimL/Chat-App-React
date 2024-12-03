@@ -1,0 +1,79 @@
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: #fff;
+  font-family: "Arial", sans-serif;
+}
+
+
+.room-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.room-card {
+  background: #ffffff;
+  color: #333;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.room-card h2 {
+  margin-bottom: 1rem;
+}
+
+.room-card input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.enter-chat-btn {
+  background:  #327df8;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.enter-chat-btn:hover {
+  background: #45a049;
+}
+
+
+.sign-out-container {
+  margin: 1rem;
+}
+
+.sign-out-btn {
+  background: #e30952;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.sign-out-btn:hover {
+  background: #b7104d;
+}
